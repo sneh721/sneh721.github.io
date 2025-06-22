@@ -8,7 +8,7 @@ twitter_username: '' # Add your Twitter handle if you have one
 github_username: 'sneh721'
 medium_username: '' # Add your Medium username if applicable
 linkedin_username: 'snehgupta721'
-profile: 'img/Sneh_photo_2015.jpg'
+profile_image: 'img/Sneh_photo_2015.jpg'
 
 # Build settings
 markdown: kramdown
