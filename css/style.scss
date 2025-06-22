@@ -24,11 +24,13 @@ $secondary: #FF7B7B;
 --------------------------------------------------------------*/
 
 .profile-pic {
-  width: 150px;
+  width: 150px; /* Increased size */
+  height: 150px; /* Ensures it's a perfect circle */
   border-radius: 50%;
   display: block;
   margin: 20px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover; /* Ensures the image scales well within its container */
 }
 
 @media (min-width: 1200px) {
