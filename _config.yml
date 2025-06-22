@@ -47,10 +47,10 @@ pagination:
 footer_text: '© 2025 Sneh Gupta'
 admin_name: 'Sneh Gupta'
 google_analytics: "" # Add your tracking ID if you use Google Analytics
-enable_contact: true
+enable_contact: false
 
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/project', text: 'Project' }
+  - { url: '/about', text: 'About' }
