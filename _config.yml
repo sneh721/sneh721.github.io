@@ -7,6 +7,7 @@ url: "https://sneh721.github.io" # the base hostname & protocol for your site, e
 twitter_username: '' # Add your Twitter handle if you have one
 github_username: 'sneh721'
 medium_username: '' # Add your Medium username if applicable
+linkedin_username: 'snehgupta721'
 
 # Build settings
 markdown: kramdown
@@ -45,7 +46,7 @@ pagination:
 footer_text: '© 2025 Sneh Gupta'
 admin_name: 'Sneh Gupta'
 google_analytics: "" # Add your tracking ID if you use Google Analytics
-enable_contact: false
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true
