@@ -1,13 +1,10 @@
 <div class="container">
 
+  <!-- Hero Section -->
   <div class="row">
-
     <div class="col-md-12">
-
       <div class="hero-container">
-
         <div class="hero-content">
-
           {% if site.title != '' %}
           <h1 class="text-center">{{site.title}}</h1>
           {% endif %}
@@ -26,43 +23,77 @@
           {% endif %}
 
           {% if site.profile_image %}
-            <img src="{{ site.baseurl }}/{{ site.profile_image }}" alt="Sneh Gupta" class="profile-pic">
+          <img src="{{ site.baseurl }}/{{ site.profile_image }}" alt="Sneh Gupta" class="profile-pic">
           {% endif %}
 
           <div class="hero-buttons">
-
             {% if site.twitter_username != '' %}
-              <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <button class="btn btn-default btn-lg">
+                <i class="fa fa-twitter fa-lg"></i>Twitter
+              </button>
+            </a>
             {% endif %}
             {% if site.github_username != '' %}
-              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+            <a href="https://github.com/{{ site.github_username }}">
+              <button class="btn btn-default btn-lg">
+                <i class="fa fa-github fa-lg"></i>Github
+              </button>
+            </a>
             {% endif %}
             {% if site.medium_username != '' %}
-              <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
+            <a href="https://{{ site.medium_username }}">
+              <button class="btn btn-default btn-lg">
+                <i class="fa fa-medium fa-lg"></i>Medium
+              </button>
+            </a>
             {% endif %}
             {% if site.linkedin_username != '' %}
-              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i> LinkedIn</button></a>
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+              <button class="btn btn-default btn-lg">
+                <i class="fa fa-linkedin fa-lg"></i> LinkedIn
+              </button>
+            </a>
             {% endif %}
             {% if site.email != '' %}
-              <a href="mailto:{{ site.email }}">
-                <button class="btn btn-default btn-lg">
-                  <i class="fa fa-envelope fa-lg"></i> Email
-                </button>
-              </a>
+            <a href="mailto:{{ site.email }}">
+              <button class="btn btn-default btn-lg">
+                <i class="fa fa-envelope fa-lg"></i> Email
+              </button>
+            </a>
             {% endif %}
-
           </div>
-
         </div>
-
       </div>
-
-      <a class="section-jump text-center" href="#portfolio">
-        <i class="fa fa-angle-down fa-3x"></i>
-      </a>
-
     </div>
-
   </div>
+
+<!-- Education Section -->
+<div class="row">
+  <div class="col-md-12">
+    <section id="education">
+      <h2 class="text-center">Education</h2>
+      <ul class="education-list text-center">
+        <li>
+          <strong>Master's in Computer Science</strong>
+          <br>
+          Georgia Institute of Technology (2023 - 2025), GPA: 4.0
+          <br>
+          Specialized in Machine Learning.
+        </li>
+        <li>
+          <strong>Bachelor's Computer Science AND Molecular, Cellular, & Developmental Biology (Double Major)</strong>
+          <br>
+          University of Washington (2019 - 2023), GPA: 3.87
+        </li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+  <!-- Section Jump -->
+  <a class="section-jump text-center" href="#portfolio">
+    <i class="fa fa-angle-down fa-3x"></i>
+  </a>
 
 </div>

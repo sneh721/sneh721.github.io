@@ -1,7 +1,7 @@
 # Site settings
 title: "Sneh Gupta"
 email: 'snehgupta721@gmail.com'
-description: "I'm a software developer."
+description: "I’m Sneh Gupta, a software developer blending Java expertise with hardware innovation. From crafting efficient code to diving into machine learning, I thrive on building solutions that bridge software and hardware. Let’s turn ideas into reality!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sneh721.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: '' # Add your Twitter handle if you have one
