@@ -8,6 +8,7 @@ twitter_username: '' # Add your Twitter handle if you have one
 github_username: 'sneh721'
 medium_username: '' # Add your Medium username if applicable
 linkedin_username: 'snehgupta721'
+profile: 'img/Sneh_photo_2015.jpg'
 
 # Build settings
 markdown: kramdown
@@ -52,4 +53,4 @@ enable_contact: true
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  - { url: '/project', text: 'Project' }
