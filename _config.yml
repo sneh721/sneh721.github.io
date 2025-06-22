@@ -12,7 +12,7 @@ profile_image: 'img/Sneh_photo_2015.jpg'
 
 # Build settings
 markdown: kramdown
-# theme: phantom # Uncomment once published to RubyGems
+theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate
 
